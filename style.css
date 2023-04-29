@@ -1,7 +1,10 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: 'Rubik', sans-serif;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
 
 .header-list {
    position: relative;
@@ -14,7 +17,7 @@
     display: inline;
     float: right;
     line-height: 40px;
-    color: #fff;
+    color: var(--tg-theme-text-color);
 }
 
 .header-list li:not(:last-of-type) {
@@ -22,9 +25,10 @@
 }
 
 .header {
-    background-color: #444;
+    background-color: var(--tg-theme-bg-color);
     height: 40px;
-    color: #fff
+    color: var(--tg-theme-text-color);
+    font-weight: 500;
 }
 
 .name {
