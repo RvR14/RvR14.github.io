@@ -17,7 +17,7 @@
     display: inline;
     float: right;
     line-height: 40px;
-    color: var(--tg-theme-text-color);
+    color: #fff;
 }
 
 .header-list li:not(:last-of-type) {
@@ -29,10 +29,15 @@
     height: 40px;
     color: #fff;
     font-weight: 500;
+    opacity: 0.2;
 }
 
 .name {
     margin-left: 30px;
     position: relative;
     line-height: 40px;
+}
+
+.header-list li:hover {
+   opacity: 0.5;
 }
