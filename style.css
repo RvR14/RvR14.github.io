@@ -25,9 +25,9 @@
 }
 
 .header {
-    background-color: var(--tg-theme-bg-color);
+    background-color: #222;
     height: 40px;
-    color: var(--tg-theme-text-color);
+    color: #fff;
     font-weight: 500;
 }
 
