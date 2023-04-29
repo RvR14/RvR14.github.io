@@ -30,7 +30,11 @@ body {
 }
 
 .header-list li {
-    margin-left: 10px;
+    margin-left: 20px;
+}  
+
+.header-list li:last-of-type{
+    margin-right: 20px;
 }
 
 .header {
