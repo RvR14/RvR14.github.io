@@ -13,6 +13,7 @@ body {
 .header-list {
     display: block;
     height: 20px;
+    line-height: 40px;
 }
 
 .header-list li {
@@ -23,12 +24,20 @@ body {
     list-style: none;
     border-radius: 10px;
     position: relative;
-    float: left;
     text-align: center;
-    line-height: 20px;
+    line-height: 20px;    
+}
+
+.header-list li:not(:last-of-type) {
+    margin-left: 10px;
 }
 
 .header {
     background-color: #fff;
     height: 40px;
+}
+
+.header {
+    overflow-y: hidden;
+    overflow-x: scroll;
 }
