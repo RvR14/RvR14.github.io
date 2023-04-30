@@ -91,8 +91,8 @@ main .item .add-to-cart{
     position: absolute;
     bottom: 10px;
     left: 80px;
-    background-color: #000000;
-    color: #fff;
+    background-color: #f5f5f5;
+    border: 1px #111 solid;
     width: 47%;
     height: 13%;
     text-align: center;
