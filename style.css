@@ -43,6 +43,52 @@ body {
     border: 1px solid #fff;
     margin-top: 0;
     height: 30px;
-    overflow-x: scroll;
-    overflow-y: hidden;
+    overflow: auto;
+    position: relative;
+    z-index: 10000;
+}
+
+main {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #f1f1f1;
+}
+
+main .item{
+    width: 45%;
+    height: 200px;
+    background-color: #ffff;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 20px;
+    position: relative;
+}
+
+main .item img{
+    height: 120px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+main .item b{
+    font-size: 18px;
+    padding-left: 5px;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+main .item p{
+    font-size: 15px;
+    padding-left: 5px;
+    font-weight: bold;
+    position: absolute;
+    padding-top: 5px;
+}
+
+main .item .add-to-cart{
+    position: relative;
+    left: 100px;
+    top: 30px
 }
