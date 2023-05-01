@@ -8,7 +8,7 @@
 
 body {
     background-color: #f1f1f1;
-    height: 2000px;
+    height: auto
 }
 
 .header-list {
@@ -66,6 +66,7 @@ main .item{
     margin-top: 10px;
     border-radius: 20px 20px 10px 10px;
     position: relative;
+    text-align: justify;
 }
 
 main .item img{
@@ -74,18 +75,17 @@ main .item img{
 }
 
 main .item b{
-    font-size: 15px;
-    padding-left: 5px;
+    font-size: 14px;
+    padding-left: 2px;
     text-decoration: none;
     font-weight: normal;
 }
 
 main .item p{
     font-size: 15px;
-    padding-left: 5px;
+    padding-left: 15px;
     font-weight: bold;
-    position: absolute;
-    padding-top: 5px;
+    padding-top: 20px;
 }
 
 main .item .add-to-cart{
@@ -127,5 +127,6 @@ main .item .add-to-cart:hover {
     font-size: 15px;
     text-align: center;
     position: relative;
-    bottom: -40px;
+    bottom: -50px;
+    height: 70px;
 }
