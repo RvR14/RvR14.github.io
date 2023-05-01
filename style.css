@@ -19,13 +19,13 @@ body {
 
 .header-list li {
     background-color: #fff;
-    display: inline;
+    display: inline-block;
     height: 20px;
-    width: 100px;
+    width: 95px;
     list-style: none;
     border-radius: 10px;
     position: relative;
-    text-align: center;
+    padding-left: 15px;
     line-height: 20px;    
 }
 
@@ -103,4 +103,20 @@ main .item .add-to-cart{
 
 main .item .add-to-cart:hover {
     transform: scale(1.2);
+}
+
+
+
+.category-rolls li:first-of-type,
+.category-sushi li:nth-of-type(2),
+.category-poke li:nth-of-type(3),
+.category-breakfast li:nth-of-type(4),
+.category-gunkan li:nth-of-type(5),
+.category-soup li:nth-of-type(6),
+.category-drinks li:nth-of-type(7){
+    background-color: #d1d0d0;
+}
+
+.category-default li:first-of-type{
+    background-color: #d1d0d0;
 }
