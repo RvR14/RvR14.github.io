@@ -105,12 +105,10 @@ main .item .add-to-cart{
     border-radius: 10px;
     transition: all 500ms ease;
     opacity: 100%;
-    content: "Добавить";
-}
-
-.item button{
     color: #000;
 }
+
+
 
 
 main .item .add-to-cart:hover {
