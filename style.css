@@ -109,8 +109,15 @@ main .item .add-to-cart{
     
 }
 
-
-
+.exit-icon{
+    position: absolute;
+    background-color: var(--tg-theme-bg-color);
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-left: 305px;
+    margin-top: -4px;
+}
 
 main .item .add-to-cart:hover {
     transform: scale(1.2);
@@ -143,17 +150,30 @@ main .item .add-to-cart:hover {
 }
 
 .full-item{
-    width: 85%;
-    height: 370px;
-    background: #fff;
-    border-radius: 10px;
+    background: #000000b8;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    right: 0;
+    bottom: 0;
+    z-index: 9999999999999999;
+    overflow: auto;
+    background-position-y: center;
+    overflow-y: hidden;
+}
+
+
+
+.full-item > div{
     position: fixed;
     top: 30%;
     left: 8%;
     right: 0;
     bottom: 0;
-    z-index: 9999999999999999;
-    overflow: auto;
+    width: 85%;
+    height: 370px;
+    border-radius: 10px;
+    background: #fff;
     background-position-y: center;
     overflow-y: hidden;
 }
