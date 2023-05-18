@@ -112,7 +112,6 @@ main .item .add-to-cart{
 
 .full-item .exit-icon{
     position: absolute;
-    background-color:var(--tg-theme-button-text-color);
     width: 25px;
     height: 25px;
     border-radius: 50%;
