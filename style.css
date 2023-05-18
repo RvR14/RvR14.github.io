@@ -116,7 +116,8 @@ main .item .add-to-cart{
     width: 25px;
     height: 25px;
     border-radius: 50%;
-    right: -0px;
+    top: 2px;
+    right: 2px;
     z-index: 100000000;
 }
 
