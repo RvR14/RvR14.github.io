@@ -116,7 +116,6 @@ main .item .add-to-cart{
     height: 25px;
     border-radius: 50%;
     margin-left: 305px;
-    margin-top: -4px;
 }
 
 main .item .add-to-cart:hover {
